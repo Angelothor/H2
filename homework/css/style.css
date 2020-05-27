@@ -1,0 +1,92 @@
+/*
+
+write your code here
+
+*/
+
+@media print {
+
+	[src$="jpg"] {
+		display: none;
+	}
+
+	[src$="jpeg"] {
+		display: none;
+	}
+	
+	div#contact {
+		display: none;
+	}
+
+	.carousel-indicators {
+		display: none;
+	}
+
+	#tmCarousel {
+		padding: 0px 20px 0px 0px;
+	}
+
+	.blocks .tm-content-box {
+		display: none;
+		margin-bottom: 0;
+	}
+
+	.tm-banner-text {
+		font-family: Georgia, sans-serif;
+		word-spacing: 5px;	
+		letter-spacing: 5px;	
+	}
+
+	.tm-team-description-container {
+		display: inline;
+	}
+
+	.tm-section-title {
+		text-align: center;
+		text-transform: uppercase;	
+	}
+
+	.padding-medium {
+		padding: 0px;
+	}
+
+	.tm-banner {
+		padding-bottom: 15px;
+	}
+
+	.tm-section-description {
+		font-style: italic;
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+		padding: 0px;
+		font-weight: 400;
+	}
+
+	.padding-medium {
+		padding: 0px;
+	
+	}
+
+	ol {
+		list-style-type: none;
+		width: 350px;
+		margin: 0 auto;
+	}
+
+	ol li {
+		width: 100%;
+	}
+
+	li:nth-child(2n) {
+		text-align: right;
+	}
+
+	.tm-content-box flex-2-col {
+		margin-bottom: 0;
+	}
+	
+	}
+
